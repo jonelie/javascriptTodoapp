@@ -8,7 +8,7 @@ let db
 
 let port = process.env.PORT 
 if (port == null | port == "") {
-  port = 3000
+  port = 443
 }
 
 App.use(express.static('public'))
